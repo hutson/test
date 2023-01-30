@@ -29,6 +29,7 @@ jobs:
       - name: Run a one-line script
         run: |
           echo $PATH
+          cat /etc/environment
           which python
           which pipx
           which poetry
